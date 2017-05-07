@@ -1,0 +1,6 @@
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  /* line 4, ../sass/style.scss */
+  #content {
+    color: black;
+  }
+}

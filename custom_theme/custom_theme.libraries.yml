@@ -1,5 +1,4 @@
 breakpointsdemo:
-  version: VERSION
   js:
     js/custom_theme.js: {}
     js/custom_check.js: {}
@@ -11,3 +10,8 @@ breakpointsdemo:
     - core/jquery.once
     - core/underscore
     - core/matchmedia
+
+global-styling:
+  css:
+    component:
+      css/style.css: {}

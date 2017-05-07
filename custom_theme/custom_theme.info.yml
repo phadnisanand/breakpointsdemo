@@ -20,6 +20,7 @@ package: Core
 # core: 8.x
 libraries:
   - custom_theme/breakpointsdemo
+  - custom_theme/global-styling
 
 # Information added by Drupal.org packaging script on 2017-04-06
 version: '8.3.0'

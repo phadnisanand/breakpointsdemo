@@ -26,3 +26,13 @@ https://www.lullabot.com/articles/sharing-breakpoints-between-drupal-8-and-sass
 Convert drupal breakpoints to scss-
 https://www.npmjs.com/package/drupal-breakpoints-scss
 https://github.com/jenslind/drupal-breakpoints-scss
+
+
+https://www.drupal.org/docs/7/theming/working-with-css/sass-techniques-and-tools
+http://stackoverflow.com/questions/42089698/gulp-cannot-find-module-gulp-rename
+https://evolvingweb.ca/blog/setting-sass-compass-your-drupal-8-theme
+https://www.appnovation.com/blog/creating-drupal-8-theme-sasssingularity-breakpoint
+https://www.chenhuijing.com/blog/drupal-101-theming-with-gulp/#%F0%9F%8E%B9
+https://www.appnovation.com/blog/using-libsass-gulp-browsersync-drupal-8-theme
+https://www.curveagency.com/blog/drupal8-theming-twig-grunt-sass
+http://www.reallifedigital.com/blog/how-we-got-custom-drupal-8-theme-and-running-sass-singularity-breakpoint-livereload-and-gulp

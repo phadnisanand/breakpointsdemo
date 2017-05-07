@@ -1,5 +1,5 @@
 xs:
-  label: Extra Small
+  label: extraSmall
   mediaQuery: 'all and (min-width : 0px) and (max-width: 480px)'
   weight: 1
   group: MyWebsite
@@ -7,7 +7,7 @@ xs:
     - 1x
     - 2x
 sm:
-  label: Small
+  label: small
   mediaQuery: 'all and (min-width: 480px) and (max-width: 768px)'
   weight: 2
   group: MyWebsite
@@ -15,7 +15,7 @@ sm:
     - 1x
     - 2x
 md:
-  label: Medium
+  label: medium
   mediaQuery: 'all and (min-width: 768px) and (max-width: 992px)'
   weight: 3
   group: MyWebsite
@@ -23,7 +23,7 @@ md:
     - 1x
     - 2x
 lg:
-  label: Large
+  label: large
   mediaQuery: 'all and (min-width: 992px) and (max-width: 1200px)'
   weight: 4
   group: MyWebsite
@@ -32,7 +32,7 @@ lg:
     - 2x
    
 vlg:
-  label: Wide Large
+  label: widelarge
   mediaQuery: 'all and (min-width: 1200px)'
   weight: 5
   group: MyWebsite
