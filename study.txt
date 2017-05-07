@@ -1,0 +1,28 @@
+Using the Breakpoint Module
+not configurable through user interface
+module/theme brakpoints.yml file
+Multipliers
+
+Breakpoint group
+https://www.drupal.org/docs/8/theming-drupal-8/working-with-breakpoints-in-drupal-8
+https://www.lullabot.com/articles/sharing-breakpoints-between-drupal-8-and-sass
+https://drupalize.me/blog/201405/drupal-8-responsive-what-does-mean
+
+Using the Responsive Image Module
+
+
+how can we use breakpoints/ multipliers in theme/module/css/js
+http://www.icfolson.com/blog/code/using-drupal-8s-breakpointsyml-in-javascript
+
+1) sass
+2) js (done)
+3) css
+4) php (done)
+
+http://www.icfolson.com/blog/code/using-drupal-8s-breakpointsyml-in-javascript
+https://www.lullabot.com/articles/sharing-breakpoints-between-drupal-8-and-sass
+
+
+Convert drupal breakpoints to scss-
+https://www.npmjs.com/package/drupal-breakpoints-scss
+https://github.com/jenslind/drupal-breakpoints-scss

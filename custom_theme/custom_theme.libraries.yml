@@ -1,0 +1,13 @@
+breakpointsdemo:
+  version: VERSION
+  js:
+    js/custom_theme.js: {}
+    js/custom_check.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - core/underscore
+    - core/matchmedia

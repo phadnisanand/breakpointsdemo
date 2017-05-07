@@ -1,0 +1,17 @@
+<?php
+function custom_theme_page_attachments_alter(array &$page) {
+
+  $breakpoints = \Drupal::service('breakpoint.manager')->getBreakpointsByGroup('MyWebsite'); // this should match the group name from mytheme.breakpoints.yml
+  
+ // echo '<pre>'; print_r($breakpoints); exit;
+  if (!empty($breakpoints)) {
+    $media_queries = array();
+    foreach ($breakpoints as $breakpoint) {
+      foreach ($breakpoints as $id => $breakpoint) {
+        $media_queries[$id] = $breakpoint->getMediaQuery();
+      }
+    }
+	//echo '<pre>media_queries'; print_r($media_queries); exit;
+    $page['#attached']['drupalSettings']['responsive']['breakpoints'] = $media_queries;
+  }
+}

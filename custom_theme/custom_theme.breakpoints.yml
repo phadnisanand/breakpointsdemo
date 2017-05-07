@@ -1,0 +1,41 @@
+xs:
+  label: Extra Small
+  mediaQuery: 'all and (min-width : 0px) and (max-width: 480px)'
+  weight: 1
+  group: MyWebsite
+  multipliers:
+    - 1x
+    - 2x
+sm:
+  label: Small
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 768px)'
+  weight: 2
+  group: MyWebsite
+  multipliers:
+    - 1x
+    - 2x
+md:
+  label: Medium
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 992px)'
+  weight: 3
+  group: MyWebsite
+  multipliers:
+    - 1x
+    - 2x
+lg:
+  label: Large
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 1200px)'
+  weight: 4
+  group: MyWebsite
+  multipliers:
+    - 1x
+    - 2x
+   
+vlg:
+  label: Wide Large
+  mediaQuery: 'all and (min-width: 1200px)'
+  weight: 5
+  group: MyWebsite
+  multipliers:
+    - 1x
+    - 2x
